@@ -43,5 +43,15 @@
   box-sizing: border-box;
 }
 body{
-  background-color: gray;
+  background-color: rgb(189, 186, 186);
+}
+.App{
+  text-align: center;
+}
+
+/* O valor css definido no <P> la no 'FRASE.MODULE' sobrepoe os valores definidos aqui.. pois la está definido na 'CLASS' e se torna mais importante*/
+p{
+  background-color: rgb(146, 92, 92);
+  padding: 8px;
+  margin: 5px 0;
 }

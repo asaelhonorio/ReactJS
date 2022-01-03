@@ -1,11 +1,13 @@
-// import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld';
+import PraticProps from './components/PraticProps';
+import Pessoa from './components/Pessoa';
 
 // Função principal que faz tudo acontecer
 function App() {
   var nome = 'Asael'
   var nomeUpper = nome.toUpperCase()
-  // var btn = document.querySelector('button')
+  
 
   function soma(a, b) {
     return a + b
@@ -14,10 +16,14 @@ function App() {
   return (
     <div className="App">
       <h1>Olá mundo!</h1>
-      <h2>Alterando JSX</h2>
-      <h2>Olá {nomeUpper}</h2>
-      <h2>Soma: {soma(2, 3)}</h2>
+      <p>Alterando JSX</p>
+      <p>Olá {nomeUpper}</p>
+      <p>Soma: {soma(2, 3)}</p>
+      <HelloWorld />
+  
+      <PraticProps nome='Lucas' />
 
+      <Pessoa nome='Pedro' idade='23' profissao='Programador' foto='https://via.placeholder.com/150' />
     </div>
   );
 }
