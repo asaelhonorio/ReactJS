@@ -1,5 +1,8 @@
 .divEsquerda{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.301);
     width: 100%;
     height: 100%;
+
+    display: grid;
+    grid-template-rows: 60px 50px 1fr;
 }

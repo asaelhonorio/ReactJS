@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <main>
-        <Esquerda/>
-        <Direita/>
+        <Esquerda />
+        <Direita />
       </main>
     </>
   )

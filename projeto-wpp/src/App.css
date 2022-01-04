@@ -10,7 +10,7 @@ main{
   left: 0; */
   width: 1366px;
   height: 100vh;
-  background-color: blue;
+  background-color: rgb(52, 52, 53);
 
   display: grid;
   grid-template-columns: 400px 1fr;
