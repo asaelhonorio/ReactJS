@@ -3,6 +3,8 @@ import HelloWorld from './components/HelloWorld';
 import PraticProps from './components/PraticProps';
 import Pessoa from './components/Pessoa';
 import List from './components/List';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 // Função principal que faz tudo acontecer
 function App() {
@@ -26,6 +28,12 @@ function App() {
 
       <Pessoa nome='Pedro' idade='23' profissao='Programador' foto='https://via.placeholder.com/150' />
       <List />
+
+      {/*======== TESTANDO EVENTOS=======*/}
+      <Evento/>
+
+      <Form/>
+
     </div>
 
   );
