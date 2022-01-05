@@ -5,6 +5,8 @@ import Pessoa from './components/Pessoa';
 import List from './components/List';
 import Evento from './components/Evento';
 import Form from './components/Form';
+import UseState from './components/UseState';
+import Button from './components/evento/Button';
 
 // Função principal que faz tudo acontecer
 function App() {
@@ -30,10 +32,12 @@ function App() {
       <List />
 
       {/*======== TESTANDO EVENTOS=======*/}
-      <Evento/>
+      <Evento />
 
-      <Form/>
-
+      <Form />
+      <h3>========== USE STATE ===========</h3>
+      <UseState/>
+      
     </div>
 
   );
