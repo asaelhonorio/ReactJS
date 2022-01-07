@@ -1,16 +1,18 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
-import PraticProps from './components/PraticProps';
-import Pessoa from './components/Pessoa';
-import List from './components/List';
-import Evento from './components/Evento';
-import Form from './components/Form';
-import UseState from './components/UseState';
-import Button from './components/evento/Button';
-import Condicional from './components/Condicional';
+// import HelloWorld from './components/HelloWorld';
+// import PraticProps from './components/PraticProps';
+// import Pessoa from './components/Pessoa';
+// import List from './components/List';
+// import Evento from './components/Evento';
+// import Form from './components/Form';
+// import UseState from './components/UseState';
+// import Button from './components/evento/Button';
+// import Condicional from './components/Condicional';
+import RenderList from './components/RenderList';
 
 // Função principal que faz tudo acontecer
 function App() {
+/*  
   var nome = 'Asael'
   var nomeUpper = nome.toUpperCase()
 
@@ -32,7 +34,7 @@ function App() {
       <Pessoa nome='Pedro' idade='23' profissao='Programador' foto='https://via.placeholder.com/150' />
       <List />
 
-      {/*======== TESTANDO EVENTOS=======*/}
+      <h3>======== TESTANDO EVENTOS=======</h3>
       <Evento />
 
       <Form />
@@ -44,6 +46,15 @@ function App() {
     </div>
 
   );
+*/
+    // RENDERIZAÇÃO DE LISTA
+    const meusItens = ['html5','css3','javaScript','react']
+    return(
+      <div className='App'>
+        <h1>Renderização de lista</h1>
+        <RenderList/>
+      </div>
+    )
 }
 
 export default App;
