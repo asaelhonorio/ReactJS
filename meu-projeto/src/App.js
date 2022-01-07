@@ -7,6 +7,7 @@ import Evento from './components/Evento';
 import Form from './components/Form';
 import UseState from './components/UseState';
 import Button from './components/evento/Button';
+import Condicional from './components/Condicional';
 
 // Função principal que faz tudo acontecer
 function App() {
@@ -36,8 +37,10 @@ function App() {
 
       <Form />
       <h3>========== USE STATE ===========</h3>
-      <UseState/>
-      
+      <UseState />
+
+      <h3>========== CONDITION ===========</h3>
+      <Condicional />
     </div>
 
   );
